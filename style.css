@@ -1,0 +1,308 @@
+body {
+	padding-top: 3em;
+	font-family: 'Source Sans Pro', lucida sans, arial, sans-serif;
+}
+
+p {
+	font-family: 'Playfair Display',Georgia,serif;
+}
+
+.container {
+	margin-top: 3em;
+}
+
+/*=====NAVBAR=====*/
+
+#brand-image {
+	height: 2.75em;
+	margin-top: -0.8em;
+	padding: 0;
+}
+
+/*====SIDEBAR MAIN STORY=====*/
+
+.sidebar-list {
+	padding-left: 0.8em;
+	color: #ff1421;
+	font-size: 1.5em;
+}
+
+.sidebar-list li {
+	list-style-type: square;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+.sidebar-list a {
+	color: #000;
+	font-size: 0.8em;
+	line-height: 2.2em;
+	font-weight: bold;
+}
+
+/*=====ARTICLE STYLES GENERAL=====*/
+
+.article-title {
+	color: #ff1421;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.article-title:hover {
+	color: #000;
+}
+
+/*=====MAIN ARTICLE STYLES=====*/
+
+.headline {
+	color: #000;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.headline:hover {
+	color: #000;
+}
+
+.headline-p {
+	font-size: 1.3em;
+}
+
+/*=====ARTICLE STYLES=====*/
+
+h2 {
+	line-height: 0.8em;
+}
+
+.article-headline {
+	color: #000;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.article-headline:hover {
+	color: #000;
+}
+
+.article-p {
+	font-size: 1.2em;
+}
+
+.article-list {
+	padding-left: 0.8em;
+	color: #00bcfd;
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+.article-list li {
+	list-style-type: square;
+}
+
+.article-list a {
+	color: #000;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+/*=====SPONSORED HEADER=====*/
+
+.sponsored {
+	color: #00bcfd;
+	font-weight: bold;
+}
+
+.sponsored:hover {
+	color: #00bcfd;
+}
+
+/*=====SECTION HEADINGS=====*/
+
+.section-heading {
+	font-size: 1.7em;
+	font-weight: bold;
+	font-family: 'Playfair Display',Georgia,serif;
+}
+
+/*=====JUMBOTRON=====*/
+
+.jumbotron h1 {
+	font-size: 4em;
+	font-family: 'Playfair Display',Georgia,serif;
+}
+
+.jumbotron span {
+	font-size: 1.3em;
+	font-family: 'Playfair Display',Georgia,serif;
+}
+
+.jumbotron ul {
+	padding-left: 0.8em;
+	color: #00bcfd;
+	font-size: 1.7em;
+	line-height: 1.2em;
+	padding-top: 1em;
+}
+
+.jumbotron li {
+	list-style-type: square;
+}
+
+.jumbotron-link {
+	color: #000;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.jumbotron-link:hover {
+	color: #000;
+}
+
+.jumbotron p {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', lucida sans, arial, sans-serif;
+}
+
+.btn-lg {
+	background-color: #00bcfd;
+	color: #fff;
+	border: none;
+	border-radius: 0.2em;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0.8em 1.5em; 
+}
+
+.btn-lg:hover {
+	background-color: #49a6c5;
+	color: #f9f9f9;
+}
+
+/*=====THIS WEEK=====*/
+
+.this-week {
+	color: #fff;
+	background-color: #ff1421;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 0.8em 1em;
+}
+
+.this-week-p {
+	padding-top: 1.4em;
+}
+
+.this-week-p a {
+	color: #ff1421;
+	font-size: 2.2em;
+	font-family: 'Source Sans Pro', lucida sans, arial, sans-serif;
+	font-weight: bold;
+}
+
+.this-week-p a:hover {
+	color: #000;
+}
+
+.this-week-header {
+	font-family: 'Playfair Display',Georgia,serif;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	color: #000;
+}
+
+.this-week-list {
+	color: #ff1421;
+	padding-left: 0.8em;
+	font-size: 1.5em;
+	line-height: 2.2em;
+}
+
+.this-week-list li {
+	list-style-type: square;
+}
+
+.this-week-list a {
+	color: #000;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.btn-this-week {
+	background-color: #ff1421;
+	color: #fff;
+	padding: 0.8em 1.6em;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.btn-this-week:hover {
+	background-color: #d22d35;
+	color: #f9f9f9;
+}
+
+.this-week-container {
+	padding-bottom: 2.5em;
+}
+
+/*=====FOOTER=====*/
+
+footer {
+	background-color: #000;
+	border-top: 0.2em solid #ff1421;
+}
+
+.footer-logo {
+	padding-bottom: 1em;
+}
+.footer-nav {
+	padding: 0.5em 0 2em 0;
+}
+
+.footer-nav a {
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-right: 0.8em;
+}
+
+.footer-icons {
+	font-size: 1.2em;
+	text-align: right;
+}
+
+.footer-icons a {
+	color: #fff;
+	border: 0.15em solid #fff;
+	border-radius: 8em;
+	padding: 0.7em 0.9em;
+}
+
+/*=====FOOTER IMAGE INFO=====*/
+
+.edition-date {
+	font-size: 1.8em;
+	color: #fff;
+	padding-top: 0.8em;
+}
+
+.edition-list {
+	padding-left: 0.8em;
+	color: #ff1421;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+.edition-list li {
+	list-style-type: square;
+}
+
+.edition-list a {
+	color: #fff;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+.copyright {
+	color: #fff;
+	font-size: 1.2em;
+}
